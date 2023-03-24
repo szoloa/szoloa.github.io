@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
+  repository: https://gitee.com/szoloa/blog.git # https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
   branch: main
 markdown: 'commonmark'
 
@@ -258,7 +258,7 @@ subtitle:
   startDelay: 300 # time before typing starts in milliseconds
   typeSpeed: 150 # type speed in milliseconds
   backSpeed: 50 # backspacing speed in milliseconds
-  loop: true
+  loop: false
   source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub: 
@@ -279,3 +279,19 @@ reward:
     - img: /images/usage/alipay.jpg
       link:
       text: 支付宝
+
+
+# 版权
+post_copyright:
+  enable: false
+  decode: false
+  author_href:
+  # license: CC BY-NC-SA 4.0
+  # license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+mathjax:
+  enable: true
+  # true 表示每一頁都加載mathjax.js
+  # false 需要時加載，須在使用的Markdown Front-matter 加上 mathjax: true
+  per_page: false
+

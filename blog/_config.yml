@@ -103,6 +103,15 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
+  repository: https://github.com/szoloa/szoloa.github.io # https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
   branch: main
 markdown: 'commonmark'
+
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
