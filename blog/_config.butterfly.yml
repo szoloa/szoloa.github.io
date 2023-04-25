@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://gitee.com/szoloa/blog.git # https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
+  repository: https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
   branch: main
 markdown: 'commonmark'
 
@@ -134,14 +134,12 @@ cover:
   # 三个值可配置 left , right , both
   position: both
   # 当没有设置cover时，默认的封面显示
-  default_cover: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw690/00817ymegy1hcr7d1y6n0j32yo1o01ky.jpg # /images/usage/default_top_img.jpg #'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+  default_cover: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw690/00817ymegy1hcz1f26a2nj32o01o0an0.jpg # /images/usage/default_top_img.jpg #'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 
 # 顶部图
-index_img: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/large/00817ymegy1hcs5932lj2j30xc0o3nag.jpg # /images/usage/index_img_1.jpg
-default_top_img: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw690/00817ymegy1hcr7d1y6n0j32yo1o01ky.jpg # /images/usage/default_top_img.jpg
-
-
+index_img: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw2000/00817ymegy1hcs5932lj2j30xc0o3nag.jpg # /images/usage/index_img_1.jpg
+default_top_img: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcz1f26a2nj32o01o0an0.jpg # /images/usage/default_top_img.jpg
 
 # 目录
 toc:
@@ -197,7 +195,7 @@ aside:
   mobile: true # display on mobile
   position: left # left or right
   display:
-    archive: true
+    archive: false
     tag: true
     category: true
   card_author:
@@ -229,7 +227,7 @@ aside:
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -276,10 +274,10 @@ social:
 reward:
   enable: true
   QR_code:
-    - img: /images/usage/wechatpay.jpg
+    - img: https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/orj360/00817ymegy1hd6jr8be92j30dk0djmzg.jpg # /images/usage/wechatpay.jpg
       link:
       text: 微信
-    - img: /images/usage/alipay.jpg
+    - img: https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/orj360/00817ymegy1hd6jraapg2j30ih0ifacx.jpg # /images/usage/alipay.jpg
       link:
       text: 支付宝
 
@@ -326,3 +324,43 @@ error_404:
 
 # 大图模式
 medium_zoom: true
+
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+
+post_meta:
+  page:
+    date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: true # true or false 显示描述性文字
+beautify:
+  enable: true
+  field: site # site/post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#F47466"
+
+google_adsense:
+  enable: false
+  auto_ads: true
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client: ca-pub-3543219094395505
+  enable_page_level_ads: true

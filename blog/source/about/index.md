@@ -2,10 +2,11 @@
 title: 关于
 date: 2023-03-16 15:08:15
 type: about
+top_img: https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/mw2000/00817ymegy1hcr7bdmypoj32yo1o0b29.jpg
 comments: false
 ---
 
-QQ : 2176165417 
+QQ : [2176165417](https://user.qzone.qq.com/)
 
 微博 : [szoloa](https://www.weibo.com/szoloa) 
 
@@ -13,7 +14,7 @@ QQ : 2176165417
 
 -----
 
-此Blog创建的本意，是为了辅助通过期末考试，或者帮助更好的学习。面向的群体主要是生物科学专业的本科生，更具体是三峡大学的2022级及以后（~~暂时没有~~）的生物科学专业的本科生。 
+此Blog创建的本意，是为了辅助通过期末考试，或者帮助更好的学习。面向的群体主要是生物科学专业的本科生。 
 
 因为笔者能力和精力有限，所以更新缓慢以及质量较低的问题还请谅解。 
 

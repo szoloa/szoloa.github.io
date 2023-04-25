@@ -4,8 +4,11 @@
 
 # Site
 title: ZincBlog
-subtitle: 'ZincBlog is not code Blog'
-description: '一鲸落而万物生，繁花谢而万物新'
+subtitle: 
+    - 'ZincBlog is not code Blog'
+    - '一鲸落而万物生，繁花谢而万物新'
+description: 
+    - '愿文明如星火般延续！愿此生如黄金般辉煌！'
 keywords:
 author: szoloa
 language: zh-CN
@@ -13,7 +16,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://szoloa.top
+url: http://szoloa.gitee.io/szoloa.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,6 +109,7 @@ deploy:
   type: git
   repository: 
     - https://github.com/szoloa/szoloa.github.io # https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
+    - https://gitee.com/szoloa/blog.git
   branch: main
 markdown: 'commonmark'
 
