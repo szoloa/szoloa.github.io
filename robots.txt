@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://xxx.github.io/sitemap.xml
-Sitemap: https://xxx.github.io/baidusitemap.xml
+Sitemap: https://szoloa.github.io/sitemap.xml
+Sitemap: https://szoloa.github.io/baidusitemap.xml
