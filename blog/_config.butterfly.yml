@@ -11,6 +11,10 @@ author: szoloa
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex    
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://szoloa.top
@@ -143,13 +147,12 @@ default_top_img: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/
 
 # 目录
 toc:
-  post: false
-  page: false
-  number: false
+  post: true
+  page: true
+  number: true
   expand: false
   style_simple: false # for post
   scroll_percent: false
-
 # 分页按钮
 post_pagination: false
 
@@ -168,12 +171,10 @@ custom_text: 欢迎来到我的博客！
 
 menu:
   主页: / || fas fa-home
-  博文 || fa fa-graduation-cap:
-    分类: /categories/ || fa fa-archive
-    标签: /tags/ || fa fa-tags
-    归档: /archives/ || fa fa-folder-open
+  博文: /archives/ || fa fa-folder-open
   杂谈: /share/ || fa fa-comments
   图库: /gallery/ || fas fa-images
+  音乐: /music/ || fa fa-music
   友链: /link/ || fa fa-list
   关于: /about/ || fas fa-heart  
   
@@ -193,7 +194,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   display:
     archive: false
     tag: true
@@ -307,6 +308,15 @@ comments:
   lazyload: true
   count: true # Display comment count in top_img
   card_post_count: false # Display comment count in Home Page
+# valine:
+#   appId: R1JnQN4BUfienmRFnivsgZ1U-gzGzoHsz
+#   appKey: yhBgghSEVWa9KXNd5VbrOma7
+#   avatar: ysYWwwsVL7BmJosVzgwzPHwx # gravatar style https://valine.js.org/#/avatar
+#   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+#   bg: # valine background
+#   visitor: true
+#   option: 
+
 valine:
   appId: R1JnQN4BUfienmRFnivsgZ1U-gzGzoHsz
   appKey: yhBgghSEVWa9KXNd5VbrOma7
@@ -314,7 +324,7 @@ valine:
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: true
-  option:
+  option: 
 
 # A simple 404 page
 error_404:
@@ -332,13 +342,13 @@ note:
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
   style: simple
-  icons: false
+  icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
-
+# 侧边栏 
 post_meta:
   page:
     date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
@@ -352,15 +362,82 @@ post_meta:
     categories: true # true or false 文章页是否显示分类
     tags: true # true or false 文章页是否显示标签
     label: true # true or false 显示描述性文字
+# 美化markdown标签
 beautify:
   enable: true
   field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
+artitalk:
+  enable: true
+  appId: FMEBzdqKOZ9YeCxvXlheivJi-MdYXbMMI
+  appKey: 8bWUuiQSnDWrguG21cm9uERA
+  path:
+  js:
+  option:
+  front_matter:
+
+# 背景
+canvas_nest:
+  enable: true
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+  zIndex: -1 # z-index property of the background, default: -1.
+  count: 99 # the number of lines, default: 99.
+  mobile: false # false 手机端不显示 true 手机端显示
+# 点击特效
+fireworks:
+  enable: false
+  zIndex: 9999 # -1 or 9999
+  mobile: false
+# 加载动画
+preloader:
+  enable: true
+  source: 1
+  pace_css_url:
+# 谷歌广告
 google_adsense:
   enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-3543219094395505
   enable_page_level_ads: true
+# 图片描述
+photofigcaption: true
+# 预加载
+instantpage: true
+
+# 底部
+footer_bg: #28ae70
+
+# 搜索
+algolia_search:
+  enable: false
+  hits:
+    per_page: 6
+algolia:
+  applicationID: '626PIBA3AO'
+  apiKey: '492b572a1146f590ddedd020bb794bb2'
+  indexName: 'ZincBlog'
+
+# 全局字体设置
+# Don't modify the following settings unless you know how they work (非必要不要修改)
+font:
+  global-font-size:
+  code-font-size:
+  font-family:  BlinkMacSystemFont, consolas,-apple-system, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+blog_title_font:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+site_verification:
+  # - name: google-site-verification
+  #   content: xxxxxx
+  - name: baidu-site-verification
+    content: xxxxxxx
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true

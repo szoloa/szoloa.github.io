@@ -1,0 +1,6 @@
+# top:
+#   - class_name: menu-article
+#     id_name: menu-article
+#     name: 播放器
+#     icon: 
+#     html: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=252 height=86 src="//music.163.com/outchain/player?type=2&id=1381084455&auto=1&height=66"></iframe>

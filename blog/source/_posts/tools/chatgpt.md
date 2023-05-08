@@ -1,10 +1,12 @@
 ---
 title: 第三方ChatGPT
-tags: 
-    - 工具
-cover: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw2000/00817ymegy1hcz1exqro9j32f21ig4bw.jpg
-categories: '工具'
+tags:
+  - 工具
+cover: >-
+  https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw2000/00817ymegy1hcz1exqro9j32f21ig4bw.jpg
+categories: 工具
 description: ChatGPT第三方网站分享
+abbrlink: 16038
 ---
 # 快速开始
 {% note blue %}

@@ -1,12 +1,13 @@
 ---
 title: 植物生物学发展历史
-tags: 
-	- 植物学
-	- 自然科学史
+tags:
+  - 植物学
+  - 自然科学史
 top_img: /images/plant/plant_1.jpg
 cover: /images/plant/plant_1.jpg
-categories: '植物学'
+categories: 植物学
 description: 植物生物学史
+abbrlink: 2677
 ---
 
 # 描述植物学时期

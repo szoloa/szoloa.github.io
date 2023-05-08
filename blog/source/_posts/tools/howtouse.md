@@ -1,10 +1,12 @@
 ---
 title: ChatGPT介绍
-tags: 
-    - 工具
-cover: https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1hcvv0igu7zj30nn0d5wmt.jpg
-categories: '工具'
-description: 
+tags:
+  - 工具
+cover: >-
+  https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1hcvv0igu7zj30nn0d5wmt.jpg
+categories: 工具
+abbrlink: 60670
+description:
 ---
 {% note primary simple %}
 如果你对ChatGPT有一定了解，并且想要体验，请前往[第三方ChatGPT](/2023/04/11/tools/chatgpt/)页面
