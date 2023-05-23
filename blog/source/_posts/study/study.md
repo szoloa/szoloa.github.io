@@ -4,6 +4,8 @@ tags:
   - 英文文章
   - 励志
 categories: 励志
+cover: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw690/00817ymegy1he8b39xrcwj32o01o0apu.jpg
+top_img: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1he8b39xrcwj32o01o0apu.jpg
 description: Quora文章转载
 abbrlink: 54586
 ---
