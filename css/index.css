@@ -2242,7 +2242,7 @@ figure.highlight pre .javascript .function {
   transform: translateZ(0);
 }
 #article-container .flink {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #article-container .flink .flink-list {
   overflow: auto;
@@ -2250,25 +2250,30 @@ figure.highlight pre .javascript .function {
   text-align: center;
 }
 #article-container .flink .flink-list > .flink-list-item {
+  background-color: #00bfff;
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 15px 7px;
-  width: calc(100% / 3 - 15px);
-  height: 90px;
-  border-radius: 8px;
-  line-height: 17px;
-  -webkit-transform: translateZ(0);
-}
-@media screen and (max-width: 1024px) {
-  #article-container .flink .flink-list > .flink-list-item {
-    width: calc(50% - 15px) !important;
-  }
-}
-@media screen and (max-width: 600px) {
-  #article-container .flink .flink-list > .flink-list-item {
-    width: calc(100% - 15px) !important;
-  }
+  margin: 8px 4px;
+  width: calc(100% / 3 - 8px);
+  height: 45px;
+  border-radius: 0px;
+  line-height: 8px;
+/*
+        -webkit-transform: translateZ(0)
+
+        +maxWidth1024()
+          width: calc(50% - 15px) !important
+
+        +maxWidth600()
+          width: calc(100% - 15px) !important
+        */
+/*
+        &:hover:before,
+        &:focus:before,
+        &:active:before
+          transform: scale(1)
+        */
 }
 #article-container .flink .flink-list > .flink-list-item:hover .flink-item-icon {
   margin-left: -10px;
@@ -2283,25 +2288,10 @@ figure.highlight pre .javascript .function {
   z-index: -1;
   background: var(--text-bg-hover);
   content: '';
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -moz-transition: -moz-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  -ms-transition: -ms-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-}
-#article-container .flink .flink-list > .flink-list-item:hover:before,
-#article-container .flink .flink-list > .flink-list-item:focus:before,
-#article-container .flink .flink-list > .flink-list-item:active:before {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+/*
+          transition: transform .3s ease-out
+          transform: scale(0) 
+          */
 }
 #article-container .flink .flink-list > .flink-list-item a {
   color: var(--font-color);
@@ -2309,45 +2299,41 @@ figure.highlight pre .javascript .function {
 }
 #article-container .flink .flink-list > .flink-list-item a .flink-item-icon {
   float: left;
-  overflow: hidden;
-  margin: 15px 10px;
-  width: 60px;
-  height: 60px;
+/* overflow: hidden */
+  margin: 8px 5px;
+  width: 30px;
+  height: 30px;
   border-radius: 35px;
-  -webkit-transition: width 0.3s ease-out;
-  -moz-transition: width 0.3s ease-out;
-  -o-transition: width 0.3s ease-out;
-  -ms-transition: width 0.3s ease-out;
-  transition: width 0.3s ease-out;
+/*
+            transition: width .3s ease-out
+            */
 }
 #article-container .flink .flink-list > .flink-list-item a .flink-item-icon img {
   width: 100%;
   height: 100%;
-  -webkit-transition: filter 375ms ease-in 0.2s, -webkit-transform 0.3s;
-  -moz-transition: filter 375ms ease-in 0.2s, -moz-transform 0.3s;
-  -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.3s;
-  -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
-  transition: filter 375ms ease-in 0.2s, transform 0.3s;
+/* 
+              transition: filter 375ms ease-in .2s, transform .3s 
+              */
   object-fit: cover;
 }
 #article-container .flink .flink-list > .flink-list-item a .img-alt {
   display: none;
 }
 #article-container .flink .flink-item-name {
-  padding: 16px 10px 0 0;
-  height: 40px;
+  padding: 8px 5px 0 0;
+  height: 20px;
   font-weight: bold;
-  font-size: 1.43em;
+  font-size: 1em;
 }
 #article-container .flink .flink-item-desc {
-  padding: 16px 10px 16px 0;
-  height: 50px;
+  padding: 8px 8px 8px 0;
+  height: 25px;
   font-size: 0.93em;
 }
 #article-container .flink .flink-name {
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #recent-posts > .recent-post-item:not(:first-child) {
   margin-top: 20px;
