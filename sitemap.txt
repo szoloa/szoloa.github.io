@@ -1,10 +1,10 @@
+http://szoloa.top/about/index.html
 http://szoloa.top/gallery/index.html
 http://szoloa.top/posts/25354/
 http://szoloa.top/posts/2677/
 http://szoloa.top/music/index.html
 http://szoloa.top/link/index.html
 http://szoloa.top/posts/16038/
-http://szoloa.top/about/index.html
 http://szoloa.top/posts/60670/
 http://szoloa.top/posts/49167/
 http://szoloa.top/posts/33981/
@@ -26,8 +26,8 @@ http://szoloa.top/tags/%E5%B7%A5%E5%85%B7/
 http://szoloa.top/tags/%E8%8B%B1%E6%96%87%E6%96%87%E7%AB%A0/
 http://szoloa.top/tags/%E5%8A%B1%E5%BF%97/
 http://szoloa.top/categories/python/
-http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/
 http://szoloa.top/categories/%E7%94%9F%E7%89%A9%E5%AD%A6%E9%80%9A%E7%94%A8/
 http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/
+http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/
 http://szoloa.top/categories/%E5%B7%A5%E5%85%B7/
 http://szoloa.top/categories/%E5%8A%B1%E5%BF%97/
