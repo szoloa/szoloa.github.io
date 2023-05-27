@@ -1,5 +1,6 @@
 ---
 title: ChatGPT镜像介绍
+hidden: true
 abbrlink: 5796
 ---
 

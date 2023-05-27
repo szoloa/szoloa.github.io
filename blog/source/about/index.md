@@ -6,7 +6,7 @@ top_img: https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/mw2000/0
 comments: false
 ---
 
-QQ : [2176165417](https://user.qzone.qq.com/)
+QQ : [2176165417](https://user.qzone.qq.com/2176165417)
 
 微博 : [szoloa](https://www.weibo.com/szoloa) 
 

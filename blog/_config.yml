@@ -37,6 +37,7 @@ skip_render:
   - "HTML/*"
   - "js/*"
   - "pdf/*"
+  - "navigation/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -145,3 +146,31 @@ markdown_it_plus:
 aplayer:
   meting: true
   asset_inject: false
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
+
+# hexo-hide-posts
+hide_posts:
+  # 可以改成其他你喜欢的名字
+  filter: hidden
+  # 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见
+  # 常见的位置有：index, tag, category, archive, sitemap, feed, etc.
+  # 留空则默认全部隐藏
+  public_generators: []
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true
+
+preloader:
+  enable: false
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  # else all
+  source: 3
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url: /css/progress_bar.css
+  avatar: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg # 自定义头像

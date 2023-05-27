@@ -1,36 +1,8 @@
 - class_name: 推荐
   class_desc: 值得一看
+  flink_style: flexcard
   link_list:
     - name: 学生生存手册
       link: https://survivesjtu.gitbook.io/survivesjtumanual/
-      avatar:
+      avatar: https://github.com/favicon.ico
       descr: 大学生生存手册
-
-- class_name: 友情链接
-  class_desc: 值得关注
-  link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar:
-      descr: 快速、简单且强大的网志框架
-
-- class_name: 网站
-  class_desc: 有意思的网站
-  link_list:
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar:
-      descr: 视频网站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar:
-      descr: 中国最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar:
-      descr: 社交分享平台
-    - name: GitHub
-      link: https://github.com/
-      avatar:
-      descr: 开源社区
-

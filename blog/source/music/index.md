@@ -4,4 +4,4 @@ type: music
 abbrlink: 9006
 ---
 
-{% meting "8167184568" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:400px" "preload:none" "theme:#ad7a86"%}
+{% meting "2781730160" "netease" "playlist" "mutex:false" "listmaxheight:400px" "preload:none" "theme:#ad7a86"%}

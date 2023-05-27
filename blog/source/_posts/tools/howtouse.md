@@ -6,10 +6,10 @@ cover: >-
   https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1hcvv0igu7zj30nn0d5wmt.jpg
 categories: 工具
 abbrlink: 60670
-description:
+description: 不了解ChatGPT的可以看这里
 ---
 {% note primary simple %}
-如果你对ChatGPT有一定了解，并且想要体验，请前往[第三方ChatGPT](/2023/04/11/tools/chatgpt/)页面
+如果你对ChatGPT有一定了解，并且想要体验，请前往[第三方ChatGPT](/posts/16038/)页面
 {% endnote %}
 
 # 介绍

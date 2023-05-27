@@ -102,7 +102,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -113,10 +112,10 @@ markdown: 'commonmark'
 
 # 图标
 nav:
-  logo: /images/usage/icon.jpg
+  logo: https://wx2.sinaimg.cn/mw690/00817ymegy1hcs4vbg31yj30u00t4q5u.jpg # /images/usage/icon.jpg
   display_title: true
   fixed: false # fixed navigation bar
-favicon:  /images/usage/favicon-32x32-next.ico
+favicon: https://wx2.sinaimg.cn/mw690/00817ymegy1hcs4vbg31yj30u00t4q5u.jpg # /images/usage/favicon-32x32-next.ico
 
 # 代码主题
 highlight_theme: light
@@ -246,8 +245,9 @@ busuanzi:
   site_pv: false
   page_pv: true
 runtimeshow:
-  enable: false
-  publish_date: 28/3/2023 00:00:00  
+  enable: true
+  # publish_date: 28/3/2023 00:00:00  
+  publish_date: 2023/3/28 00:00:00
   ##网页开通时间
   #格式: 月/日/年 时间
   #也可以写成 年/月/日 时间
@@ -329,8 +329,8 @@ valine:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "頁面沒有找到"
-  background: 
+  subtitle: "页面没有找到"
+  background: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw2000/00817ymegy1he1oyekkckj319s0qob29.jpg
 
 # 大图模式
 medium_zoom: true
@@ -370,7 +370,7 @@ beautify:
   title-prefix-icon-color: "#F47466"
 
 artitalk:
-  enable: true
+  enable: false
   appId: FMEBzdqKOZ9YeCxvXlheivJi-MdYXbMMI
   appKey: 8bWUuiQSnDWrguG21cm9uERA
   path:
@@ -392,10 +392,10 @@ fireworks:
   zIndex: 9999 # -1 or 9999
   mobile: false
 # 加载动画
-preloader:
-  enable: true
-  source: 1
-  pace_css_url:
+# preloader:
+#   enable: true
+#   source: 1
+#   pace_css_url:
 # 谷歌广告
 google_adsense:
   enable: false
@@ -453,3 +453,40 @@ aplayerInject:
 #   css:
 #   option:
 #   front_matter:
+
+local_search:
+  enable: true
+  # Preload the search data when the page loads.
+  preload: false
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  CDN:
+
+flink_style: butterfly
+
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink: https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1he9mqy49oyj30i20i2n0s.jpg  # 头像失效替换图
+  post_page: https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/mw690/00817ymegy1he1oyekkckj319s0qob29.jpg # 站点缩略图
+
+
+# Loading Animation (加载动画)
+
+
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签依赖注入开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
