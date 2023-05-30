@@ -10,7 +10,7 @@ abbrlink: 16038
 ---
 # 快速开始
 
-# GPT-3.5
+## GPT-3.5
 
 {% link BAI, https://chatbot.theb.ai/, https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1hdb5mbw7zoj308w08wa9x.jpg %}
 

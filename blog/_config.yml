@@ -164,13 +164,13 @@ hide_posts:
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
 
-preloader:
-  enable: false
-  # source
-  # 1. fullpage-loading
-  # 2. pace (progress bar)
-  # else all
-  source: 3
-  # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: /css/progress_bar.css
-  avatar: https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg # 自定义头像
+hexo_markmap:
+  pjax: false
+  katex: false
+  prism: false
+  CDN:
+    d3_js: https://fastly.jsdelivr.net/npm/d3@6
+    markmap_view_js: https://fastly.jsdelivr.net/npm/markmap-view@0.2.7
+    katex_css: https://fastly.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css
+    prism_css: https://fastly.jsdelivr.net/npm/prismjs@1.25.0/themes/prism.css
+  lockView: true
