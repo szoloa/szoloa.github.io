@@ -261,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://szoloa.top/categories/%E5%8A%A8%E7%89%A9%E5%AD%A6/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,6 +269,13 @@
   
   <url>
     <loc>http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
