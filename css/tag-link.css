@@ -1,0 +1,66 @@
+#article-container .tag-Link {
+    background: #ffffff;
+    border-radius: 8px!important;
+    display: flex;
+    border: 1px solid #000000;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    border-width: 1px!important;
+    margin-top: 1rem;
+  }
+  
+  #article-container .tag-Link:hover {
+    border: 3px solid #49b1f5;
+    text-decoration: none!important
+  }
+  
+  #article-container .tag-Link .tag-link-tips {
+    border-bottom: 1px solid #000000!important;
+    padding-bottom: 4px;
+    font-size: 0.6rem;
+    color: #000000;
+    font-weight: normal;
+  }
+  
+  #article-container .tag-Link:hover .tag-link-tips {
+    color: #000000;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom .tag-link-left {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    background-size: cover;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom .tag-link-right {
+    margin-left: 1rem;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-title {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-sitename {
+    font-size: 0.7rem;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+  
+  #article-container .tag-Link:hover .tag-link-bottom .tag-link-right .tag-link-sitename {
+    color: #000000;
+  }
+  
+  #article-container .tag-Link .tag-link-bottom i {
+    margin-left: auto;
+  }
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">

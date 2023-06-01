@@ -2351,8 +2351,8 @@ figure.highlight pre .javascript .function {
   transform: scale(1);
 }
 .flink-list > .flink-list-item a {
-  color: var(--font-color);
-  text-decoration: none;
+  color: #000 !important;
+  text-decoration: none !important;
 }
 .flink-list > .flink-list-item a .flink-item-icon {
   float: left;
