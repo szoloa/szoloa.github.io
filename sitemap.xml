@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://szoloa.top/music/index.html</loc>
+    <loc>http://szoloa.top/posts/60670/</loc>
     
     <lastmod>2023-06-06</lastmod>
     
@@ -13,16 +13,7 @@
   <url>
     <loc>http://szoloa.top/posts/16038/</loc>
     
-    <lastmod>2023-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://szoloa.top/share/index.html</loc>
-    
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-06-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +22,34 @@
   <url>
     <loc>http://szoloa.top/about/index.html</loc>
     
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/share/index.html</loc>
+    
+    <lastmod>2023-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/link/index.html</loc>
+    
+    <lastmod>2023-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/music/index.html</loc>
+    
+    <lastmod>2023-06-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -86,24 +104,6 @@
     <loc>http://szoloa.top/gallery/index.html</loc>
     
     <lastmod>2023-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://szoloa.top/link/index.html</loc>
-    
-    <lastmod>2023-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://szoloa.top/posts/60670/</loc>
-    
-    <lastmod>2023-05-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -254,13 +254,6 @@
   </url>
   
   <url>
-    <loc>http://szoloa.top/categories/%E7%94%9F%E7%89%A9%E5%AD%A6%E9%80%9A%E7%94%A8/</loc>
-    <lastmod>2023-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://szoloa.top/categories/%E5%8A%A8%E7%89%A9%E5%AD%A6/</loc>
     <lastmod>2023-06-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -268,14 +261,21 @@
   </url>
   
   <url>
-    <loc>http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/</loc>
+    <loc>http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/</loc>
     <lastmod>2023-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/</loc>
+    <loc>http://szoloa.top/categories/%E7%94%9F%E7%89%A9%E5%AD%A6%E9%80%9A%E7%94%A8/</loc>
+    <lastmod>2023-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/</loc>
     <lastmod>2023-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
