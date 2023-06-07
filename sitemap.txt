@@ -1,5 +1,5 @@
-http://szoloa.top/posts/60670/
 http://szoloa.top/posts/16038/
+http://szoloa.top/posts/60670/
 http://szoloa.top/about/index.html
 http://szoloa.top/share/index.html
 http://szoloa.top/link/index.html
@@ -29,8 +29,8 @@ http://szoloa.top/tags/%E5%8A%B1%E5%BF%97/
 http://szoloa.top/tags/%E5%B7%A5%E5%85%B7/
 http://szoloa.top/categories/python/
 http://szoloa.top/categories/%E5%8A%A8%E7%89%A9%E5%AD%A6/
-http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/
 http://szoloa.top/categories/%E7%94%9F%E7%89%A9%E5%AD%A6%E9%80%9A%E7%94%A8/
+http://szoloa.top/categories/%E5%8C%96%E5%AD%A6/
 http://szoloa.top/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/
 http://szoloa.top/categories/%E5%8A%B1%E5%BF%97/
 http://szoloa.top/categories/%E5%B7%A5%E5%85%B7/
