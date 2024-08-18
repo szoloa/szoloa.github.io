@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://szoloa.top/posts/20962/</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/posts/47099/</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/posts/50990/</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/posts/47062/</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/posts/44331/</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://szoloa.top/about/index.html</loc>
     
     <lastmod>2024-08-18</lastmod>
@@ -185,6 +230,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://szoloa.top/tags/%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -217,6 +276,20 @@
   
   <url>
     <loc>http://szoloa.top/categories/%E5%8A%B1%E5%BF%97/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/categories/%E7%94%9F%E7%89%A9%E5%AD%A6/</loc>
+    <lastmod>2024-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://szoloa.top/categories/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
