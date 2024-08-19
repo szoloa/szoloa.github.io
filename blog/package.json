@@ -19,7 +19,7 @@
     "hexo-algoliasearch": "^1.0.0",
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-hpptalk": "^1.0.4",
-    "hexo-butterfly-tag-plugins-plus": "^1.0.17",
+    "hexo-butterfly-tag-plugins-plus": "^1.0.18",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",

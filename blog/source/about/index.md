@@ -18,12 +18,4 @@ BiliBili: [不想上课了啊啊啊啊啊](https://space.bilibili.com/440171319)
 
 # 关于网站 
 
-此Blog创建的本意，是为了辅助通过期末考试，或者帮助更好的学习。面向的群体主要是生物科学专业的本科生。 
-
-因为在下能力和精力有限，所以更新缓慢以及质量较低的问题还请谅解。 
-
-此Blog使用[Hexo](https://github.com/hexojs/hexo)的框架，以[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)作为框架的主题，使用Github Page作为服务器，并且使用阿里云的域名解析服务。~~目前运营成本为9元每年。~~ 
-
-反馈问题可以通过我的邮箱，我的QQ或者任何一篇博文下面的评论区。博文的评论区是几乎匿名的，并且本人也是鼓励匿名的。
-
-
+此Blog使用[Hexo](https://github.com/hexojs/hexo)的框架，以[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)作为框架的主题，使用Github Page作为服务器，并且使用阿里云的域名解析服务。

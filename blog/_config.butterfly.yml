@@ -130,9 +130,9 @@ index_post_content:
 # 文章封面
 cover:
   # 是否显示文章封面
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
+  index_enable: false
+  aside_enable: false
+  archives_enable: false
   # 封面显示的位置
   # 三个值可配置 left , right , both
   position: both
@@ -165,7 +165,7 @@ footer:
   owner:
     enable: true
     since: 2023
-custom_text: 欢迎来到我的博客！
+  custom_text: <a href="https://icp.gov.moe/?keyword=20230449" target="_blank">萌ICP备20230449号</a>
 
 
 menu:
@@ -276,7 +276,7 @@ social:
 
 # 打赏
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/orj360/00817ymegy1hd6jr8be92j30dk0djmzg.jpg # /images/usage/wechatpay.jpg
       link:
