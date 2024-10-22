@@ -204,6 +204,33 @@
     
     <entry>
       
+        <title>化学方程式</title>
+      
+      <link href="/posts/49167/"/>
+      <url>/posts/49167/</url>
+      
+        <content type="html"><![CDATA[<h1 id="魔法方程式"><a href="#魔法方程式" class="headerlink" title="魔法方程式"></a>魔法方程式</h1><h2 id="炼金术"><a href="#炼金术" class="headerlink" title="炼金术"></a>炼金术</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 2Al + 2Cu -> 2Au + Cl2 }</script></div><h2 id="大佬喝咖啡"><a href="#大佬喝咖啡" class="headerlink" title="大佬喝咖啡"></a>大佬喝咖啡</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 2Fe + CO -> coffee }</script></div><h2 id="妮可妮可妮"><a href="#妮可妮可妮" class="headerlink" title="妮可妮可妮"></a>妮可妮可妮</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 3NiO + 3C -> NiCONiCONi + CO }</script></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 化学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 化学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      
         <title>植物生物学发展历史</title>
       
       <link href="/posts/2677/"/>
@@ -224,33 +251,6 @@
             <tag> 植物学 </tag>
             
             <tag> 自然科学史 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      
-        <title>化学方程式</title>
-      
-      <link href="/posts/49167/"/>
-      <url>/posts/49167/</url>
-      
-        <content type="html"><![CDATA[<h1 id="魔法方程式"><a href="#魔法方程式" class="headerlink" title="魔法方程式"></a>魔法方程式</h1><h2 id="炼金术"><a href="#炼金术" class="headerlink" title="炼金术"></a>炼金术</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 2Al + 2Cu -> 2Au + Cl2 }</script></div><h2 id="大佬喝咖啡"><a href="#大佬喝咖啡" class="headerlink" title="大佬喝咖啡"></a>大佬喝咖啡</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 2Fe + CO -> coffee }</script></div><h2 id="妮可妮可妮"><a href="#妮可妮可妮" class="headerlink" title="妮可妮可妮"></a>妮可妮可妮</h2><div class="note blue simple"><script type="math/tex; mode=display">\ce{ 3NiO + 3C -> NiCONiCONi + CO }</script></div><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
-      
-      
-      <categories>
-          
-          <category> 化学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 化学 </tag>
             
         </tags>
       
