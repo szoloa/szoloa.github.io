@@ -5,6 +5,35 @@
     
     <entry>
       
+        <title>质粒的命名规律</title>
+      
+      <link href="/posts/19598/"/>
+      <url>/posts/19598/</url>
+      
+        <content type="html"><![CDATA[<p>天然存在的野生型质粒分子量大(＞15kb)、拷贝数低、单一酶切位点少、遗传标记不理想等缺陷，不能满足克隆载体的要求。因此，天然质粒必须经过改造才能成为科研工作者的工具：</p><ol><li>减：把多余的和功能研究无关的片段删除掉，15kb→1~5kb;</li><li>增： 插入多种酶切位点以及遗传标记基因，例如抗性基因（卡那霉素、氨苄霉素…）、报告基因（luciferase、GFP…）等。</li></ol><p>质粒的命名： 如pUC19、pCMV、pEGFP-N3。小写字母p代表质粒”plasmid”，2~4个大写字母代表发明者、实验室名称或者其他表型性状（CMV是启动子，EGFP是增强型绿色荧光蛋白）。</p><h1 id="载体命名规则"><a href="#载体命名规则" class="headerlink" title="载体命名规则"></a>载体命名规则</h1><p>所有载体名称都以字母“p”开头；<br>“p”字母后面是载体骨架的缩写，以下是常用骨架的例子：<br>RP: Regular plasmid，常规质粒载体<br>LV: Lentivirus，慢病毒载体<br>MMLV: MMLV retrovirus，MMLV逆转录病毒载体<br>AV: Adenovirus，腺病毒载体<br>AAV: Adeno-associated virus，腺相关病毒载体<br>PB: PiggyBac transposon，PiggyBac转座子<br>Tol2: Tol2 transposon，Tol2转座子<br>ET, BAD or CS：各种细菌蛋白表达载体<br>SC: Saccharomyces cerevisiae，酿酒酵母蛋白表达载体<br>BV: Baculovirus，昆虫杆状病毒蛋白表达载体<br>在载体骨架缩写后的中括号里添加其生物学应用的缩写，以下是常用生物学应用的例子：<br>Exp：基因过表达载体<br>shRNA：干扰载体<br>gRNA：CRISPR系统所需的gRNA表达载体<br>En：增强子活性测试载体</p><h1 id="命名质粒"><a href="#命名质粒" class="headerlink" title="命名质粒"></a>命名质粒</h1><p>小写的“p”作为质粒名称的第一个字母，通常用来简单地表示主体是“质粒”。“p”用于表示质粒。</p><p>如：pXXXXX-XXXX</p><h2 id="步骤1：质粒骨架名称"><a href="#步骤1：质粒骨架名称" class="headerlink" title="步骤1：质粒骨架名称"></a>步骤1：质粒骨架名称</h2><p>你的质粒名称中应包括空质粒骨架名称。这种简单的信息往往可以传达出许多重要的细节。一旦知道质粒是基于哪种骨架，便可以推导出：a )细菌的抗生素抗性，b )驱动插入片段转录的启动子，c )该质粒是否有其他细胞类型(例如真核细胞) 中使用的选择标记。</p><p>如：pBACKBONE-XXXX</p><h2 id="步骤2：插入片段名称"><a href="#步骤2：插入片段名称" class="headerlink" title="步骤2：插入片段名称"></a>步骤2：插入片段名称</h2><p>你的质粒名称中应包括关于插入片段的信息。这往往用3 ~ 6个字母表示插入的基因(或DNA序列)。</p><p>如：pBACKBONE–hGene</p><p><strong>专业提示</strong></p><p>研究者往往会在其插入片段缩写的开头加上一个小写字母，以说明它是什么物种。例如：“h”为人(智人)，“m”为小鼠( mus musculus )，“r”为大鼠(大鼠或褐家鼠)等。</p><h2 id="步骤3：添加标签"><a href="#步骤3：添加标签" class="headerlink" title="步骤3：添加标签"></a>步骤3：添加标签</h2><p>在你的插入片段上添加任意标签或融合蛋白。通常，你需要列出标签或融合蛋白在质粒中出现的顺序以及它们与插入片段的相对位置。例如，如果在插入序列的N端有一个Flag标签，那么需要先列出这个标签。</p><p>如：pBACKBONE-Flag-hGene</p><p>如果插入片段的C端也融合了EGFP，那么需要在插入片段的后面再列出来。</p><p>如：pBACKBONE-Flag-hGene-EGFP</p><h2 id="其他需要考虑的因素"><a href="#其他需要考虑的因素" class="headerlink" title="其他需要考虑的因素"></a>其他需要考虑的因素</h2><p>如果插入片段中含有突变或修饰，则应将其包含在质粒名称中。突变一般被列为氨基酸的改变，而不是核苷酸的改变。表示氨基酸突变的正确方法是列出野生型氨基酸的一个字母缩写，紧接着是其相对于起始甲硫氨酸(Methionine，Met)的位置(编号)，紧接着是突变氨基酸目前在该位置的一个字母缩写。</p><p>相比之下，未变异或野生型(Wild Type，wt)版本的插入片段，往往在插入片段名称前或后直接用“wt”表示。</p><p>例如：如果将第295位的谷氨酰胺突变为丙氨酸，则为Q295A。</p><p>突变版本：pBACKBONE-Flag-hGene (Q295A) - EGFP</p><p>野生型版本：pBACKBONE-Flag-hGene-EGFP或pBACKBONE-Flag- hGene (wt)-EGFP</p><p>这些简单的规则使其他研究人员知道质粒中有什么，并且通常只需要通过阅读名称就可以使用该质粒。</p><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 生物学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生物学 </tag>
+            
+            <tag> 概念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      
         <title>Mathjax使用</title>
       
       <link href="/posts/18629/"/>
