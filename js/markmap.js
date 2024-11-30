@@ -23,16 +23,14 @@
           obj.svg.on('wheel.zoom', null).on('mousedown.zoom', null).on('touchstart.zoom', null)
         })
     }
+    
     if (window.markmap && Object.keys(window.markmap).length != 0) { createMarkmap(); return }
     const CDN = {
       "js": {
-        "d3": 'https://fastly.jsdelivr.net/npm/d3@6',
-        "markmap_view": 'https://fastly.jsdelivr.net/npm/markmap-view@0.2.7',
+        "d3": "https://fastly.jsdelivr.net/npm/d3@6",
+        "markmap_view": "https://fastly.jsdelivr.net/npm/markmap-view@0.2.7",
       },
-      "css": [
-        
-        
-      ],
+      "css": [],
     }
     const loadElement = (elname, attr) => {
       const el = document.createElement(elname)
@@ -52,7 +50,7 @@
     await loadScript(CDN.js.d3)
     await loadScript(CDN.js.markmap_view)
     await Promise.all(CDN.css.map(loadCSS))
-
+    
     createMarkmap()
 }
 if(document.querySelector('.markmap-container')) {
