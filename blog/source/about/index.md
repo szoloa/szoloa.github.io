@@ -18,4 +18,4 @@ BiliBili: [不想上课了啊啊啊啊啊](https://space.bilibili.com/440171319)
 
 # 关于网站 
 
-此Blog使用[Hexo](https://github.com/hexojs/hexo)的框架，以[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)作为框架的主题，使用Github Page作为服务器，并且使用阿里云的域名解析服务。
+此Blog使用[Hexo](https://github.com/hexojs/hexo)的框架，以[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)作为框架的主题，使用Github Page服务。

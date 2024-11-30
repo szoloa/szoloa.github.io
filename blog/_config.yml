@@ -114,7 +114,7 @@ deploy:
   type: git
   repository: 
     - https://github.com/szoloa/szoloa.github.io # https://github.com/szoloa/szoloa.github.io.git  #你的仓库地址
-    - https://gitee.com/szoloa/blog.git
+    # - https://gitee.com/szoloa/blog.git
   branch: main
 # markdown: 'commonmark'
 
