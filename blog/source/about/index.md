@@ -6,11 +6,7 @@ top_img: https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/mw2000/0
 comments: false
 ---
 
-QQ : [#000000](https://user.qzone.qq.com/2176165417)
-
 微博 : [szoloa](https://www.weibo.com/szoloa) 
-
-BiliBili: [不想上课了啊啊啊啊啊](https://space.bilibili.com/440171319)
 
 头像: [梅比乌斯](https://bcy.net/item/detail/7021829282062146599)
 
