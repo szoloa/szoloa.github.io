@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>标签 | ZincBlog</title><meta name="author" content="szoloa"><meta name="copyright" content="szoloa"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="标签">
+<meta property="og:url" content="http://szoloa.top/tags/index.html">
+<meta property="og:site_name" content="ZincBlog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg">
+<meta property="article:published_time" content="2023-03-16T07:05:23.000Z">
+<meta property="article:modified_time" content="2025-01-22T13:12:45.300Z">
+<meta property="article:author" content="szoloa">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg"><link rel="shortcut icon" href="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw690/00817ymegy1hcs4vbg31yj30u00t4q5u.jpg"><link rel="canonical" href="http://szoloa.top/tags/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '标签',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3543219094395505" crossorigin="anonymous"></script><meta name="baidu-site-verification" content="codeva-EDseRIsxK7" /><link rel="stylesheet" href="/css/loading.css?1"><link rel="stylesheet" href="/css/font.css?1" /><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="/css/progress_bar.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg" onerror="this.onerror=null;this.src='https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1he9mqy49oyj30i20i2n0s.jpg'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 博文</span></a></div><div class="menus_item"><a class="site-page" href="/share/"><i class="fa-fw fa fa-comments"></i><span> 杂谈</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-list"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page type-tags" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcz1f26a2nj32o01o0an0.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw690/00817ymegy1hcs4vbg31yj30u00t4q5u.jpg" alt="Logo"><span class="site-name">ZincBlog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 博文</span></a></div><div class="menus_item"><a class="site-page" href="/share/"><i class="fa-fw fa fa-comments"></i><span> 杂谈</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-list"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">标签</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="tag-cloud-list text-center"><a href="/tags/%E5%8C%96%E5%AD%A6/" style="font-size: 1.2em; color: rgb(104, 64, 190);">化学</a><a href="/tags/%E7%94%9F%E7%89%A9%E5%AD%A6/" style="font-size: 1.5em; color: rgb(148, 50, 136);">生物学</a><a href="/tags/%E6%95%B0%E6%8D%AE/" style="font-size: 1.3em; color: rgb(153, 50, 111);">数据</a><a href="/tags/%E6%A6%82%E5%BF%B5/" style="font-size: 1.4em; color: rgb(50, 183, 103);">概念</a><a href="/tags/%E6%A4%8D%E7%89%A9%E5%AD%A6/" style="font-size: 1.2em; color: rgb(171, 158, 50);">植物学</a><a href="/tags/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%8F%B2/" style="font-size: 1.2em; color: rgb(148, 114, 181);">自然科学史</a><a href="/tags/mathjax/" style="font-size: 1.2em; color: rgb(50, 121, 50);">mathjax</a></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/mw2000/00817ymegy1hcs4upqz3oj313b13b15i.jpg" onerror="this.onerror=null;this.src='https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/00817ymegy1he9mqy49oyj30i20i2n0s.jpg'" alt="avatar"/></div><div class="author-info-name">szoloa</div><div class="author-info-description">愿文明如星火般延续！愿此生如黄金般辉煌！</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/szoloa"><i class="fab fa-github"></i><span>关注</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/szoloa" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:szoloa@hotmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8A%A8%E7%89%A9%E5%AD%A6/"><span class="card-category-list-name">动物学</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8C%96%E5%AD%A6/"><span class="card-category-list-name">化学</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">工具</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%A4%8D%E7%89%A9%E5%AD%A6/"><span class="card-category-list-name">植物学</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E7%89%A9%E5%AD%A6/"><span class="card-category-list-name">生物学</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E7%89%A9%E5%AD%A6%E9%80%9A%E7%94%A8/"><span class="card-category-list-name">生物学通用</span><span class="card-category-list-count">2</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%8C%96%E5%AD%A6/" style="font-size: 1.15em; color: rgb(193, 151, 108);">化学</a><a href="/tags/%E7%94%9F%E7%89%A9%E5%AD%A6/" style="font-size: 1.45em; color: rgb(50, 104, 77);">生物学</a><a href="/tags/%E6%95%B0%E6%8D%AE/" style="font-size: 1.25em; color: rgb(166, 191, 95);">数据</a><a href="/tags/%E6%A6%82%E5%BF%B5/" style="font-size: 1.35em; color: rgb(85, 170, 117);">概念</a><a href="/tags/%E6%A4%8D%E7%89%A9%E5%AD%A6/" style="font-size: 1.15em; color: rgb(63, 79, 50);">植物学</a><a href="/tags/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E5%8F%B2/" style="font-size: 1.15em; color: rgb(51, 166, 79);">自然科学史</a><a href="/tags/mathjax/" style="font-size: 1.15em; color: rgb(85, 94, 50);">mathjax</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">8.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-07-19T08:56:02.876Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By szoloa</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a href="https://icp.gov.moe/?keyword=20230449" target="_blank">萌ICP备20230449号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body></html>
